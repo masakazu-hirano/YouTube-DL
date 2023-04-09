@@ -1,5 +1,5 @@
 # $ docker build --tag 'Docker イメージ名':latest --no-cache .
-# $ docker run --name 'Docker コンテナ名' --workdir /usr/local/src --volume 'ホストOS':/usr/local/src --interactive --tty --detach --rm 'Docker イメージ名':latest
+# $ docker run --name 'Docker コンテナ名' --volume 'ホストOS':/usr/local/src --interactive --tty --detach --rm 'Docker イメージ名':latest
 
 FROM python:3.11.3
 
